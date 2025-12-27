@@ -99,33 +99,33 @@ pip install -r requirements.txt
 python main.py
 
 # 🔐 Environment Variables 
-OPENAI_API_KEY=your_api_key_here
+**OPENAI_API_KEY=your_api_key_here
 DB_HOST=localhost
 DB_USER=username
 DB_PASSWORD=password
 DB_NAME=database_name
-
+**
 
 # 🧪 Example Query
 "What is the total sales in the last 6 months?"
 
 
 Generated SQL:
-SELECT SUM(sales)
+**SELECT SUM(sales)
 FROM orders
-WHERE order_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);
+WHERE order_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH);**
 
 # 📈 Future Enhancements
-Web-based UI
-Role-based access control
-Query optimization and caching
-Vector database integration
-Fine-tuned domain-specific LLMs
+**1. Web-based UI
+2. Role-based access control
+3. Query optimization and caching
+4. Vector database integration
+5. Fine-tuned domain-specific LLMs**
 
-👨‍💻 Author
-Owais Khan
+# 👨‍💻 Author
+**Owais Khan
 B.Tech Computer Science (AI)
-Aspiring AI Engineer | LLM & ML Enthusiast
+Aspiring AI Engineer | LLM & ML Enthusiast**
 
 📜 License
 This project is licensed for academic and educational use.
